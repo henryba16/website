@@ -2,6 +2,9 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 
+# Set page configuration with custom page icon
+st.set_page_config(page_title="About me", page_icon="shutterstock_535124956-scaled.jpg", layout="wide")
+
 # Set page configuration
 st.set_page_config(page_title="About me", page_icon=":tada:", layout="wide")
 
