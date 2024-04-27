@@ -1,1 +1,0 @@
-st.set_page_config(page_title="My Streamlit App", page_icon="/path/to/your/icon.png")
