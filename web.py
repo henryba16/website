@@ -7,9 +7,9 @@ st.set_page_config(page_title="About me", page_icon=":tada:", layout="wide")
 
 # Header section
 with st.container():
-    st.subheader("Hi, I am henry :wave:")
+    st.subheader("Hi, I'm Nguyen Ba but you can call me Henry :wave:")
     st.title("A young programmer From VietNam")
-    st.write("I am finding ways to use Python to be more efficient and effective in business.")
+    st.write("I'm finding ways to use Python to be more efficient and effective in business.")
     st.write("[Learn More >](https://www.youtube.com/watch?v=dQw4w9WgXcQ)")
 
 def load_lottieurl(url):
@@ -22,7 +22,7 @@ def load_lottieurl(url):
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-local_css(r"C:\Users\HP\OneDrive\python\web\style.css")
+local_css("style/style.css")
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://lottie.host/7a110907-3d03-40d7-898c-55a89d89a595/37NyEgw8KI.json")
 # ---- WHAT I DO ----
