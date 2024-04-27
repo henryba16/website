@@ -10,8 +10,8 @@ favicon_path = "shutterstock_535124956-scaled.jpg"
 # Inject custom HTML header to set website icon
 st.markdown(
     f"""
-    <link rel="shortcut icon" href="file://{favicon_path}" type="image/jpeg">
-    <link rel="icon" href="file://{favicon_path}" type="image/jpeg">
+    <link rel="shortcut icon" href="file://shutterstock_535124956-scaled.jpg" type="image/jpeg">
+    <link rel="icon" href="file://shutterstock_535124956-scaled.jpg" type="image/jpeg">
     """,
     unsafe_allow_html=True
 )
