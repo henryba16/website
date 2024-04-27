@@ -22,7 +22,7 @@ def load_lottieurl(url):
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-local_css(r"C:\Users\HP\OneDrive\python\web\style.css")
+local_css("web/style.css")
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://lottie.host/7a110907-3d03-40d7-898c-55a89d89a595/37NyEgw8KI.json")
 # ---- WHAT I DO ----
