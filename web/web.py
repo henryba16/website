@@ -7,9 +7,9 @@ st.set_page_config(page_title="About me", page_icon=":tada:", layout="wide")
 
 # Header section
 with st.container():
-    st.subheader("Hi, I am henry :wave:")
+    st.subheader("Hi, I'm Nguyen Ba but you can call me Henry :wave:")
     st.title("A young programmer From VietNam")
-    st.write("I am finding ways to use Python to be more efficient and effective in business.")
+    st.write("I'm finding ways to use Python to be more efficient and effective in business.")
     st.write("[Learn More >](https://www.youtube.com/watch?v=dQw4w9WgXcQ)")
 
 def load_lottieurl(url):
