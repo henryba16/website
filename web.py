@@ -2,8 +2,6 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 
-import streamlit as st
-
 # Set relative file path to JPEG favicon
 favicon_path = "shutterstock_535124956-scaled.jpg"
 
