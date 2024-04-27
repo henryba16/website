@@ -5,17 +5,16 @@ from streamlit_lottie import st_lottie
 import streamlit as st
 
 # Set relative file path to JPEG favicon
-favicon_path = "favicon.jpg"
+favicon_path = "shutterstock_535124956-scaled.jpg"
 
 # Inject custom HTML header to set website icon
 st.markdown(
     f"""
-    <link rel="shortcut icon" href="file://shutterstock_535124956-scaled.jpg" type="image/jpeg">
-    <link rel="icon" href="file://shutterstock_535124956-scaled.jpg" type="image/jpeg">
+    <link rel="shortcut icon" href="file://{favicon_path}" type="image/jpeg">
+    <link rel="icon" href="file://{favicon_path}" type="image/jpeg">
     """,
     unsafe_allow_html=True
 )
-
 
 # Set page configuration
 st.set_page_config(page_title="About me", page_icon=":tada:", layout="wide")
