@@ -35,8 +35,9 @@ with st.container():
         st.write("##")
         st.write(
             """
-            - looking for a way to leverage the power of Python in these day to work.
-            - inpove python code like working with python and thought - "there has to be a better way."
+            - Looking for a way to leverage the power of Python in these day to work.
+            - Inpove python code like working with python and thought - "there has to be a better way."
+            - Make this entire website using python.
             """
         )
 with right_column:
