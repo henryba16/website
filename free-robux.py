@@ -17,7 +17,7 @@ with st.container():
     st.title("This is how you get free robux")
 
 # ---- LOAD ASSETS ----
-lottie_coding = load_lottieurl("https://lottie.host/7a110907-3d03-40d7-898c-55a89d89a595/37NyEgw8KI.json")
+lottie_coding = load_lottieurl("https://lottie.host/04b771a6-ebc1-4705-88c8-bc8d6c0f1354/ONKxcPwUPP.json")
 
 with st.container():
     st.write("---")
