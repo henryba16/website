@@ -3,7 +3,7 @@ import requests
 from streamlit_lottie import st_lottie
 
 # Set page configuration
-st.set_page_config(page_title="About me", page_icon=":tada:", layout="short")
+st.set_page_config(page_title="About me", page_icon=":tada:", layout="wide")
 
 # Header section
 with st.container():
