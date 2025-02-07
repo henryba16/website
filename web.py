@@ -37,9 +37,9 @@ with st.container():
         st.write(
             """
             - Looking for a way to leverage the power of Python in these day to work.
-            - Inpove python code like working with python and thought - "there has to be a better way."
+            - Inpove my coding skill like when I working with Python or C++ and thought - "there has to be a better way."
+            - make an automatic car using arduino with able to controll using any phone.
             - Make this entire website using python.
-            - 
             """
         )
 with right_column:
