@@ -10,6 +10,7 @@ with st.container():
     st.subheader("Hi, I'm Nguyen Ba but you can call me Henry :wave:")
     st.title("A young programmer From VietNam")
     st.write("I'm finding ways to use Python to be more efficient and effective in business.")
+    st.write("I have been learning on Python and C++ lately so I'm still trying to find a way to combie both to my project when needed!")
     st.write("[Learn More >](https://www.youtube.com/watch?v=dQw4w9WgXcQ)")
 
 def load_lottieurl(url):
@@ -38,6 +39,7 @@ with st.container():
             - Looking for a way to leverage the power of Python in these day to work.
             - Inpove python code like working with python and thought - "there has to be a better way."
             - Make this entire website using python.
+            - 
             """
         )
 with right_column:
